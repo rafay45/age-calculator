@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Date and Time</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <h1>CHECK YOUR DATE OF BIRTH AND 'AGE'</h1>
+  <div class="allCards">
+    <div class="cards">
+      <h2>CHECK YOUR AGE</h2>
+      <input type="value" name="dateOfBirth" id="userInp" placeholder="month/date/year"> <br>
+      <button onclick="dateOfBirth()">Check Age</button>
+      <div class="result">
+        <div class="area">
+          <div class="first">
+            <div class="label">
+              Your DOB:
+            </div>
+            <div id="box"></div>
+          </div>
+          <div class="second">
+            <div class="label">
+              days:
+            </div>
+            <div id="box-1"></div>
+          </div>
+
+        </div>
+        <div class="area">
+          <div class="first">
+            <div class="label">
+              Weeks:
+            </div>
+            <div id="box-2"></div>
+          </div>
+          <div class="second">
+            <div class="label">
+              Months:
+            </div>
+            <div id="box-3"></div>
+          </div>
+
+        </div>
+        <div class="area">
+          <div class="first">
+            <div class="label">
+              Years:
+            </div>
+            <div id="box-4"></div>
+          </div>
+          <div class="second">
+            <div class="label">
+              Hours:
+            </div>
+            <div id="box-5"></div>
+          </div>
+
+        </div>
+        <div class="area">
+          <div class="first">
+            <div class="label">
+              Minutes:
+            </div>
+            <div id="box-6"></div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+
+</html>
