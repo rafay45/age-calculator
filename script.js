@@ -5,11 +5,6 @@
 // let ampm = time.getHours() >= 12 ? "PM" : "AM"
 // document.getElementById('time').innerHTML = `${hours}:${minutes}:${seconds} ${ampm}`
 
-
-
-
-
-
 function dateOfBirth() {
     let userBirth = document.getElementById('userInp').value;
     let userDateAndTime = new Date(userBirth)
